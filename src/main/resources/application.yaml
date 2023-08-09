@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    #url: jdbc:mysql://localhost:3306/j9_FP_ironbank
+    #username: ironhacker
+    #password: 1r0nh4ck3r
+    url: jdbc:mysql://sql7.freesqldatabase.com:3306/sql7595596
+    username: sql7595596
+    password: wGV4CBr2T1
+  jpa:
+    show-sql: true # show the commands that are being executed
+    generate-ddl : true
+    hibernate:
+      ddl-auto: create # create, create-drop, validate, none, update ....
+
+  profiles:
+    active: demo
+
+server:
+  port: 8080
